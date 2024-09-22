@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Logo</title>
+    <style>
+        #outer_line{
+            position: absolute;
+            border-radius: 18px;
+            height: 100px;
+            width: 100px;
+            padding: 5px;
+            z-index: 0;
+            background: rgb(231,237,14);
+background: linear-gradient(-45deg, rgba(231,237,14,1) 0%, rgba(253,19,50,1) 40%, rgba(224,0,147,1) 74%, rgba(126,75,228,1) 100%);
+        }
+        #outer_border{
+            position: relative;
+            top: 7px;
+            left: 7px;
+            border: 5px white solid;
+            border-radius: 15px;
+            z-index: 1;
+            height: 75px;
+            width: 75px;
+            display: flex;
+        }
+        #inner_border{
+            position: relative;
+            top: 10px;
+            left: 10px;
+            border: 5px white solid;
+            border-radius: 50%;
+            z-index: 3;
+            height: 45px;
+            width: 45px;
+            display: flex;
+        }
+        h3{
+            font-size:50px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body >
+    <h3>Instagram</h3>
+    <div id="outer_line">
+        <div id="outer_border">
+            <div id="inner_border"></div>
+        </div>
+    </div>
+    
+</body>
+</html>
